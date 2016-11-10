@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E2710191DD452CD00CA1AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2710181DD452CD00CA1AAD /* main.m */; };
+		6E27101C1DD452CD00CA1AAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27101B1DD452CD00CA1AAD /* AppDelegate.m */; };
+		6E27101F1DD452CD00CA1AAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27101E1DD452CD00CA1AAD /* ViewController.m */; };
+		6E2710221DD452CE00CA1AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2710201DD452CE00CA1AAD /* Main.storyboard */; };
+		6E2710241DD452CE00CA1AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E2710231DD452CE00CA1AAD /* Assets.xcassets */; };
+		6E2710271DD452CE00CA1AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E2710251DD452CE00CA1AAD /* LaunchScreen.storyboard */; };
+		6E2710321DD452CE00CA1AAD /* ZJTimeShaftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2710311DD452CE00CA1AAD /* ZJTimeShaftTests.m */; };
+		6E27103D1DD452CE00CA1AAD /* ZJTimeShaftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27103C1DD452CE00CA1AAD /* ZJTimeShaftUITests.m */; };
+		6E27104C1DD453E300CA1AAD /* TimeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27104B1DD453E300CA1AAD /* TimeModel.m */; };
+		6E27104F1DD4551600CA1AAD /* RightSlidetabletableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E27104E1DD4551600CA1AAD /* RightSlidetabletableViewCell.m */; };
+		6E2710521DD45A8400CA1AAD /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2710511DD45A8400CA1AAD /* UIView+SDAutoLayout.m */; };
+		6E2710561DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2710551DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E27102E1DD452CE00CA1AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E27100C1DD452CD00CA1AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2710131DD452CD00CA1AAD;
+			remoteInfo = ZJTimeShaft;
+		};
+		6E2710391DD452CE00CA1AAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E27100C1DD452CD00CA1AAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E2710131DD452CD00CA1AAD;
+			remoteInfo = ZJTimeShaft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E2710141DD452CD00CA1AAD /* ZJTimeShaft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJTimeShaft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2710181DD452CD00CA1AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E27101A1DD452CD00CA1AAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E27101B1DD452CD00CA1AAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E27101D1DD452CD00CA1AAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E27101E1DD452CD00CA1AAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E2710211DD452CE00CA1AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E2710231DD452CE00CA1AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E2710261DD452CE00CA1AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E2710281DD452CE00CA1AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E27102D1DD452CE00CA1AAD /* ZJTimeShaftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJTimeShaftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2710311DD452CE00CA1AAD /* ZJTimeShaftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTimeShaftTests.m; sourceTree = "<group>"; };
+		6E2710331DD452CE00CA1AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E2710381DD452CE00CA1AAD /* ZJTimeShaftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJTimeShaftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E27103C1DD452CE00CA1AAD /* ZJTimeShaftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTimeShaftUITests.m; sourceTree = "<group>"; };
+		6E27103E1DD452CE00CA1AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E27104A1DD453E300CA1AAD /* TimeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeModel.h; sourceTree = "<group>"; };
+		6E27104B1DD453E300CA1AAD /* TimeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeModel.m; sourceTree = "<group>"; };
+		6E27104D1DD4551600CA1AAD /* RightSlidetabletableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightSlidetabletableViewCell.h; sourceTree = "<group>"; };
+		6E27104E1DD4551600CA1AAD /* RightSlidetabletableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightSlidetabletableViewCell.m; sourceTree = "<group>"; };
+		6E2710501DD45A8400CA1AAD /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		6E2710511DD45A8400CA1AAD /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		6E2710531DD45BBE00CA1AAD /* CommonDefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonDefine.pch; sourceTree = "<group>"; };
+		6E2710541DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		6E2710551DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E2710111DD452CD00CA1AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E27102A1DD452CE00CA1AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2710351DD452CE00CA1AAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E27100B1DD452CD00CA1AAD = {
+			isa = PBXGroup;
+			children = (
+				6E2710161DD452CD00CA1AAD /* ZJTimeShaft */,
+				6E2710301DD452CE00CA1AAD /* ZJTimeShaftTests */,
+				6E27103B1DD452CE00CA1AAD /* ZJTimeShaftUITests */,
+				6E2710151DD452CD00CA1AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E2710151DD452CD00CA1AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E2710141DD452CD00CA1AAD /* ZJTimeShaft.app */,
+				6E27102D1DD452CE00CA1AAD /* ZJTimeShaftTests.xctest */,
+				6E2710381DD452CE00CA1AAD /* ZJTimeShaftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E2710161DD452CD00CA1AAD /* ZJTimeShaft */ = {
+			isa = PBXGroup;
+			children = (
+				6E27101A1DD452CD00CA1AAD /* AppDelegate.h */,
+				6E27101B1DD452CD00CA1AAD /* AppDelegate.m */,
+				6E27101D1DD452CD00CA1AAD /* ViewController.h */,
+				6E27101E1DD452CD00CA1AAD /* ViewController.m */,
+				6E27104A1DD453E300CA1AAD /* TimeModel.h */,
+				6E27104B1DD453E300CA1AAD /* TimeModel.m */,
+				6E27104D1DD4551600CA1AAD /* RightSlidetabletableViewCell.h */,
+				6E27104E1DD4551600CA1AAD /* RightSlidetabletableViewCell.m */,
+				6E2710541DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.h */,
+				6E2710551DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.m */,
+				6E2710501DD45A8400CA1AAD /* UIView+SDAutoLayout.h */,
+				6E2710511DD45A8400CA1AAD /* UIView+SDAutoLayout.m */,
+				6E2710201DD452CE00CA1AAD /* Main.storyboard */,
+				6E2710231DD452CE00CA1AAD /* Assets.xcassets */,
+				6E2710251DD452CE00CA1AAD /* LaunchScreen.storyboard */,
+				6E2710281DD452CE00CA1AAD /* Info.plist */,
+				6E2710171DD452CD00CA1AAD /* Supporting Files */,
+			);
+			path = ZJTimeShaft;
+			sourceTree = "<group>";
+		};
+		6E2710171DD452CD00CA1AAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E2710181DD452CD00CA1AAD /* main.m */,
+				6E2710531DD45BBE00CA1AAD /* CommonDefine.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E2710301DD452CE00CA1AAD /* ZJTimeShaftTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E2710311DD452CE00CA1AAD /* ZJTimeShaftTests.m */,
+				6E2710331DD452CE00CA1AAD /* Info.plist */,
+			);
+			path = ZJTimeShaftTests;
+			sourceTree = "<group>";
+		};
+		6E27103B1DD452CE00CA1AAD /* ZJTimeShaftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E27103C1DD452CE00CA1AAD /* ZJTimeShaftUITests.m */,
+				6E27103E1DD452CE00CA1AAD /* Info.plist */,
+			);
+			path = ZJTimeShaftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E2710131DD452CD00CA1AAD /* ZJTimeShaft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2710411DD452CE00CA1AAD /* Build configuration list for PBXNativeTarget "ZJTimeShaft" */;
+			buildPhases = (
+				6E2710101DD452CD00CA1AAD /* Sources */,
+				6E2710111DD452CD00CA1AAD /* Frameworks */,
+				6E2710121DD452CD00CA1AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJTimeShaft;
+			productName = ZJTimeShaft;
+			productReference = 6E2710141DD452CD00CA1AAD /* ZJTimeShaft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E27102C1DD452CE00CA1AAD /* ZJTimeShaftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2710441DD452CE00CA1AAD /* Build configuration list for PBXNativeTarget "ZJTimeShaftTests" */;
+			buildPhases = (
+				6E2710291DD452CE00CA1AAD /* Sources */,
+				6E27102A1DD452CE00CA1AAD /* Frameworks */,
+				6E27102B1DD452CE00CA1AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E27102F1DD452CE00CA1AAD /* PBXTargetDependency */,
+			);
+			name = ZJTimeShaftTests;
+			productName = ZJTimeShaftTests;
+			productReference = 6E27102D1DD452CE00CA1AAD /* ZJTimeShaftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E2710371DD452CE00CA1AAD /* ZJTimeShaftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E2710471DD452CE00CA1AAD /* Build configuration list for PBXNativeTarget "ZJTimeShaftUITests" */;
+			buildPhases = (
+				6E2710341DD452CE00CA1AAD /* Sources */,
+				6E2710351DD452CE00CA1AAD /* Frameworks */,
+				6E2710361DD452CE00CA1AAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E27103A1DD452CE00CA1AAD /* PBXTargetDependency */,
+			);
+			name = ZJTimeShaftUITests;
+			productName = ZJTimeShaftUITests;
+			productReference = 6E2710381DD452CE00CA1AAD /* ZJTimeShaftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E27100C1DD452CD00CA1AAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Organization;
+				TargetAttributes = {
+					6E2710131DD452CD00CA1AAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+					6E27102C1DD452CE00CA1AAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E2710131DD452CD00CA1AAD;
+					};
+					6E2710371DD452CE00CA1AAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6E2710131DD452CD00CA1AAD;
+					};
+				};
+			};
+			buildConfigurationList = 6E27100F1DD452CD00CA1AAD /* Build configuration list for PBXProject "ZJTimeShaft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E27100B1DD452CD00CA1AAD;
+			productRefGroup = 6E2710151DD452CD00CA1AAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E2710131DD452CD00CA1AAD /* ZJTimeShaft */,
+				6E27102C1DD452CE00CA1AAD /* ZJTimeShaftTests */,
+				6E2710371DD452CE00CA1AAD /* ZJTimeShaftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E2710121DD452CD00CA1AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2710271DD452CE00CA1AAD /* LaunchScreen.storyboard in Resources */,
+				6E2710241DD452CE00CA1AAD /* Assets.xcassets in Resources */,
+				6E2710221DD452CE00CA1AAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E27102B1DD452CE00CA1AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2710361DD452CE00CA1AAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E2710101DD452CD00CA1AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2710561DD45EF800CA1AAD /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				6E27101F1DD452CD00CA1AAD /* ViewController.m in Sources */,
+				6E27101C1DD452CD00CA1AAD /* AppDelegate.m in Sources */,
+				6E2710521DD45A8400CA1AAD /* UIView+SDAutoLayout.m in Sources */,
+				6E27104C1DD453E300CA1AAD /* TimeModel.m in Sources */,
+				6E2710191DD452CD00CA1AAD /* main.m in Sources */,
+				6E27104F1DD4551600CA1AAD /* RightSlidetabletableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2710291DD452CE00CA1AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2710321DD452CE00CA1AAD /* ZJTimeShaftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E2710341DD452CE00CA1AAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E27103D1DD452CE00CA1AAD /* ZJTimeShaftUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E27102F1DD452CE00CA1AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2710131DD452CD00CA1AAD /* ZJTimeShaft */;
+			targetProxy = 6E27102E1DD452CE00CA1AAD /* PBXContainerItemProxy */;
+		};
+		6E27103A1DD452CE00CA1AAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E2710131DD452CD00CA1AAD /* ZJTimeShaft */;
+			targetProxy = 6E2710391DD452CE00CA1AAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E2710201DD452CE00CA1AAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2710211DD452CE00CA1AAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E2710251DD452CE00CA1AAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E2710261DD452CE00CA1AAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E27103F1DD452CE00CA1AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E2710401DD452CE00CA1AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E2710421DD452CE00CA1AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJTimeShaft/CommonDefine.pch";
+				INFOPLIST_FILE = ZJTimeShaft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrganizationIdentifier.ZJTimeShaft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E2710431DD452CE00CA1AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZJTimeShaft/CommonDefine.pch";
+				INFOPLIST_FILE = ZJTimeShaft/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrganizationIdentifier.ZJTimeShaft;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E2710451DD452CE00CA1AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJTimeShaftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrganizationIdentifier.ZJTimeShaftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJTimeShaft.app/ZJTimeShaft";
+			};
+			name = Debug;
+		};
+		6E2710461DD452CE00CA1AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJTimeShaftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrganizationIdentifier.ZJTimeShaftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJTimeShaft.app/ZJTimeShaft";
+			};
+			name = Release;
+		};
+		6E2710481DD452CE00CA1AAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJTimeShaftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrganizationIdentifier.ZJTimeShaftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJTimeShaft;
+			};
+			name = Debug;
+		};
+		6E2710491DD452CE00CA1AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJTimeShaftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OrganizationIdentifier.ZJTimeShaftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJTimeShaft;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E27100F1DD452CD00CA1AAD /* Build configuration list for PBXProject "ZJTimeShaft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E27103F1DD452CE00CA1AAD /* Debug */,
+				6E2710401DD452CE00CA1AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E2710411DD452CE00CA1AAD /* Build configuration list for PBXNativeTarget "ZJTimeShaft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2710421DD452CE00CA1AAD /* Debug */,
+				6E2710431DD452CE00CA1AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E2710441DD452CE00CA1AAD /* Build configuration list for PBXNativeTarget "ZJTimeShaftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2710451DD452CE00CA1AAD /* Debug */,
+				6E2710461DD452CE00CA1AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E2710471DD452CE00CA1AAD /* Build configuration list for PBXNativeTarget "ZJTimeShaftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E2710481DD452CE00CA1AAD /* Debug */,
+				6E2710491DD452CE00CA1AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E27100C1DD452CD00CA1AAD /* Project object */;
+}
